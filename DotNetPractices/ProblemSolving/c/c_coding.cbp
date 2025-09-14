@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="c_coding" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/c_coding" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/c_coding" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="binaryGap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="countDiv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cyclicRotation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="frogJmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="frogRiverOne.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="maxIn3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="maxProductOfThree.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="minAvgTwoSlice.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="missingElm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="missingInteger.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="passingCar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="permCheck.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="quickSort.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tapeEquilibrium.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="unpairedNumber.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

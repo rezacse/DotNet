@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1571847710 source:g:\devresources\_git\c_coding\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1571325261 source:g:\devresources\_git\c_coding\binarygap.c
+
+1571337138 source:g:\devresources\_git\c_coding\unpairednumber.c
+
+1571426216 source:g:\devresources\_git\c_coding\cr.c
+
+1571426216 source:g:\devresources\_git\c_coding\cyclicrotation.c
+
+1571426928 source:g:\devresources\_git\c_coding\frogjmp.c
+
+1571432339 source:g:\devresources\_git\c_coding\missingelm.c
+
+1571588082 source:g:\devresources\_git\c_coding\tapeequilibrium.c
+	<stdlib.h>
+
+1571588046 source:g:\devresources\_git\c_coding\permcheck.c
+	<string.h>
+
+1571588031 source:g:\devresources\_git\c_coding\frogriverone.c
+	<string.h>
+
+1571588002 source:g:\devresources\_git\c_coding\missinginteger.c
+	<string.h>
+
+1571600451 source:g:\devresources\_git\c_coding\countdiv.c
+
+1571684657 source:g:\devresources\_git\c_coding\passingcar.c
+
+1571766023 source:g:\devresources\_git\c_coding\minavgtwoslice.c
+
+1571771998 source:g:\devresources\_git\c_coding\quicksort.c
+
+1571846449 source:g:\devresources\_git\c_coding\maxin3.c
+
