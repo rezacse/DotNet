@@ -5,12 +5,15 @@
 /.vs
 /DotNetPractices/.vs/DotNetPractices
 /DotNetPractices/InterviewCoding/BetterCoding/obj
-/DotNetPractices/InterviewCoding/obj/
-/DotNetPractices/InterviewCoding.Tests/obj/
 /DotNetPractices/ProblemSolving/bin/
 /DotNetPractices/ProblemSolving/obj/
 /DotNetPractices/ProblemSolving.Tests/bin/
 /DotNetPractices/ProblemSolving.Tests/obj/
+/DotNetPractices/ProblemSolving.Test/bin/
+/DotNetPractices/ProblemSolving.Test/obj/
 /DotNetPractices/.vs/ProjectEvaluation
 /DotNetPractices/InterviewCoding/bin/
+/DotNetPractices/InterviewCoding/obj/
+/DotNetPractices/InterviewCoding.Test/bin/
+/DotNetPractices/InterviewCoding.Test/obj/
 /desktop.ini
