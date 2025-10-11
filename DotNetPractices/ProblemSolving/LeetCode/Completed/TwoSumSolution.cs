@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Programming.LeetCode.TopInterviews
+namespace ProblemSolving.LeetCode.Completed
 {
     public class TwoSumSolution
     {

@@ -1,11 +1,11 @@
-﻿namespace Programming.LeetCode.July
+﻿namespace ProblemSolving.LeetCode.Completed
 {
     public class ReverseWord
     {
         public string ReverseWords(string s)
         {
             string rw = "";
-            var words = s.Split(new[] { ' ' }, System.StringSplitOptions.RemoveEmptyEntries);
+            var words = s.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             foreach (var w in words)
                 rw = rw.Length > 0 ? $"{w} {rw}" : w;
 

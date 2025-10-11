@@ -1,4 +1,4 @@
-﻿namespace Programming.Sorting
+﻿namespace ProblemSolving.Sorting
 {
     internal class SelectionSort
     {

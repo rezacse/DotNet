@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Programming
+namespace ProblemSolving
 {
 
     public class Prog

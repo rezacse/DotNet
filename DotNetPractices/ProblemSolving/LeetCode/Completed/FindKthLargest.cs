@@ -1,4 +1,4 @@
-﻿namespace Programming.LeetCode.TopInterviews
+﻿namespace ProblemSolving.LeetCode.Completed
 {
     public class FindKthLargestSolution
     {

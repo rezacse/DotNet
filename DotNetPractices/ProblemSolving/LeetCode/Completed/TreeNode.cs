@@ -1,4 +1,4 @@
-﻿namespace Programming.LeetCode.AugustPractics
+﻿namespace ProblemSolving.LeetCode.Completed
 {
     public class TreeNode
     {

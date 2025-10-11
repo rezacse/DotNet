@@ -1,4 +1,4 @@
-﻿namespace Programming.LeetCode.July
+﻿namespace ProblemSolving.LeetCode.Completed
 {
     public class AddBinarys
     {

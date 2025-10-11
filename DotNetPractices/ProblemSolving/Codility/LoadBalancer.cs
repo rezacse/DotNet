@@ -1,4 +1,4 @@
-﻿namespace Programming.Codility
+﻿namespace ProblemSolving.Codility
 {
     class LoadBalancer
     {

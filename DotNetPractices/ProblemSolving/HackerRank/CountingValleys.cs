@@ -1,4 +1,4 @@
-﻿namespace Programming.HackerRank
+﻿namespace ProblemSolving.HackerRank
 {
     public class CountingValleys
     {

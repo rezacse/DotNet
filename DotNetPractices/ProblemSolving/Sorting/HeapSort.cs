@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Programming.Sorting
+namespace ProblemSolving.Sorting
 {
     internal class HeapSort
     {

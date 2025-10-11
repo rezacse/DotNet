@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Programming.LeetCode.TopInterviews
+namespace ProblemSolving.LeetCode.Completed
 {
     public class TopKFrequentSolution
     {

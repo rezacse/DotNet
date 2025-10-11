@@ -1,4 +1,4 @@
-﻿namespace Programming.LeetCode.July
+﻿namespace ProblemSolving.LeetCode.Completed
 {
     public class SingleNumber3
     {
@@ -8,7 +8,7 @@
             for (int i = 0; i < nums.Length; i++)
                 r ^= nums[i];
 
-            int m = r ^ (r & (r - 1));
+            int m = r ^ r & r - 1;
 
             var results = new int[2];
             for (int i = 0; i < nums.Length; i++)

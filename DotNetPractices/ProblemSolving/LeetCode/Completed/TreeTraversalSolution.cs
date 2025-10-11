@@ -1,7 +1,6 @@
-﻿using Programming.LeetCode.AugustPractics;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace Programming.LeetCode.OctoberPractics
+namespace ProblemSolving.LeetCode.Completed
 {
     public class TreeTraversalSolution
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Programming.LeetCode.AugustPractics
+namespace ProblemSolving.LeetCode.Completed
 {
     public class BinaryTreeTilt
     {

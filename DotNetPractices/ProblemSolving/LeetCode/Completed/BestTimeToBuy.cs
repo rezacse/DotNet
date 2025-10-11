@@ -1,4 +1,4 @@
-﻿namespace Programming.LeetCode
+﻿namespace ProblemSolving.LeetCode.Completed
 {
     public class BestTimeToBuy
     {

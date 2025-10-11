@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace Programming.LeetCode.July
+namespace ProblemSolving.LeetCode
 {
     public class ReverseVowelsSolution
     {

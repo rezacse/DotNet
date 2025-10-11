@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace Programming.Codility
+namespace ProblemSolving.Codility
 {
     class Bracket
     {
