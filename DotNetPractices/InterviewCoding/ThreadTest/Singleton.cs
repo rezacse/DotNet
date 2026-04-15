@@ -4,7 +4,7 @@
     public class Singleton
     {
         // Static field initializer calls instance constructor.
-        private static Singleton instance = new Singleton();
+        //public static Singleton instance = new Singleton();
         public const string ConstVal = "Initial";
         public static string StaticVal = "Initial";
         public readonly static string RStaticVal = "Initial";
@@ -13,7 +13,7 @@
         //{
         //    Console.WriteLine("Executes before static constructor.");
         //}
-        public Singleton()
+        private Singleton()
         {
             StaticVal = "ConstructorSingleton";
             //RStaticVal = "RStaticVal";

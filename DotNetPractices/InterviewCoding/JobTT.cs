@@ -86,4 +86,34 @@ public class JobTT
     }
 
 
+    public string[] Allocation(string S, string[] B)
+    {
+        List<(decimal, int)> arrs = [];
+        decimal sum = 0.00M;
+        for (int i = 0; i < B.Length; i++) {
+            decimal val = decimal.Parse(B[i]);
+            arrs.Add((val, i));
+            sum += val;
+        }
+
+        //arrs.Sort((a, b) => a.Item1.CompareTo(b.Item1));
+
+        string[] res = new string[B.Length];
+        decimal s = decimal.Parse(S);
+        foreach (var item in arrs.OrderByDescending(i => i.Item1).ThenBy(i=>i.Item2))
+        {
+            if (sum == 0) res[item.Item2] = "0.00";
+            else
+            {
+                decimal alloc = Math.Floor((s * item.Item1 / sum) * 100) / 100;
+                res[item.Item2] = alloc.ToString("0.00");
+                sum -= item.Item1;
+                s -= alloc;
+            }
+        }
+
+        return res;
+    }
+
+
 }

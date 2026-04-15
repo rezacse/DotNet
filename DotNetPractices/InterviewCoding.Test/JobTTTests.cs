@@ -47,4 +47,19 @@ public class JobTTTests
 
         Assert.That(expected, Is.EqualTo(actual));
     }
+
+    [Test]
+    [TestCase("300.01", new[] { "300.00", "200.00", "100.00"}, new[] { "150.00", "100.00", "50.01" })]
+    [TestCase("1.00", new[] { "0.05", "1.00"}, new[] { "0.05", "0.95" })]
+    [TestCase("5.00", new[] { "1.00", "2.00", "2.00"}, new[] { "1.00", "2.00", "2.00" })]
+    [TestCase("6.00", new[] { "1.00", "2.00", "2.00"}, new[] { "1.20", "2.40", "2.40" })]
+    [TestCase("6.00", new[] { "0.00", "2.00", "2.00"}, new[] { "0.00", "3.00", "3.00" })]
+    [TestCase("6.00", new[] { "1.00", "0.00", "2.00", "2.00"}, new[] { "1.20", "0.00", "2.40", "2.40" })]
+    public void LatticePoint_WhenValued_ReturnExpected(string s,  string[] input, string[] actual)
+    {
+        var helper = new JobTT();
+        var expected = helper.Allocation(s, input);
+
+        Assert.That(expected, Is.EqualTo(actual));
+    }
 }

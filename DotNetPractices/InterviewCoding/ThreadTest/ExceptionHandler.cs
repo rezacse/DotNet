@@ -8,7 +8,7 @@
             {
                 try
                 {
-                    int number = 0;
+                    int number = 3;
                     int result = 10 / number; // May throw DivideByZeroException
 
                     Console.WriteLine($"Result: {result}");
@@ -27,7 +27,7 @@
                 catch (Exception ex) // Generic catch for any other exceptions
                 {
                     Console.WriteLine($"Catch: Generc Catch {ex.Message}");
-                    throw ex;
+                    //throw ex;
                 }
                 finally
                 {
